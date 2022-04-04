@@ -43,6 +43,9 @@ public class CodeGenerator {
     private String mapperTemplate = templatePath + "mapper.java";
 
 
+    /**
+     * 启动主方法
+     */
     public static void main(String[] args) {
         CodeGenerator codeGenerator = new CodeGenerator();
         codeGenerator.execute();
