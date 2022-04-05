@@ -12,6 +12,13 @@ spring:
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://localhost:8080/test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
 server:
-  port: 8080
+  port: 8081
+
+
+
+#mybatis-plus配置控制台打印完整带参数SQL语句
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

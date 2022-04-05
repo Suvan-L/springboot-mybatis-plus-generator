@@ -1,0 +1,470 @@
+{
+  "item": [
+    {
+      "request": {
+        "method": "GET",
+        "description": "",
+        "header": [],
+        "url": {
+          "path": [
+            "generator",
+            "api",
+            "v1",
+            "student"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "1",
+              "equals": true,
+              "description": ""
+            },
+            {
+              "key": "pageSize",
+              "value": "10",
+              "equals": true,
+              "description": ""
+            },
+            {
+              "key": "factor",
+              "value": "",
+              "equals": true,
+              "description": ""
+            }
+          ],
+          "host": "{{springboot-mybatis-plus-generator}}",
+          "raw": "{{springboot-mybatis-plus-generator}}/generator/api/v1/student"
+        }
+      },
+      "response": [
+        {
+          "originalRequest": {
+            "method": "GET",
+            "description": "",
+            "header": [],
+            "url": {
+              "path": [
+                "generator",
+                "api",
+                "v1",
+                "student"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1",
+                  "equals": true,
+                  "description": ""
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "equals": true,
+                  "description": ""
+                },
+                {
+                  "key": "factor",
+                  "value": "",
+                  "equals": true,
+                  "description": ""
+                }
+              ],
+              "host": "{{springboot-mybatis-plus-generator}}",
+              "raw": "{{springboot-mybatis-plus-generator}}/generator/api/v1/student"
+            }
+          },
+          "_postman_previewlanguage": "json",
+          "code": 200,
+          "_postman_previewtype": "text",
+          "responseTime": 11,
+          "name": "查询分页数据-Example",
+          "header": [
+            {
+              "name": "date",
+              "key": "date",
+              "value": "周二, 05 4月 202208:35:43 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "Apache-Coyote/1.1",
+              "description": "A name for the server"
+            },
+            {
+              "name": "transfer-encoding",
+              "key": "transfer-encoding",
+              "value": "chunked",
+              "description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application/json;charset\u003dUTF-8"
+            }
+          ],
+          "body": "{\n    \"message\": \"\",\n    \"code\": \"\",\n    \"data\": null\n}",
+          "status": "OK"
+        }
+      ],
+      "name": "查询分页数据"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "description": "",
+        "header": [],
+        "url": {
+          "path": [
+            "generator",
+            "api",
+            "v1",
+            "student",
+            ":id"
+          ],
+          "query": [],
+          "host": "{{springboot-mybatis-plus-generator}}",
+          "raw": "{{springboot-mybatis-plus-generator}}/generator/api/v1/student/{id}"
+        }
+      },
+      "response": [
+        {
+          "originalRequest": {
+            "method": "GET",
+            "description": "",
+            "header": [],
+            "url": {
+              "path": [
+                "generator",
+                "api",
+                "v1",
+                "student",
+                ":id"
+              ],
+              "query": [],
+              "host": "{{springboot-mybatis-plus-generator}}",
+              "raw": "{{springboot-mybatis-plus-generator}}/generator/api/v1/student/{id}"
+            }
+          },
+          "_postman_previewlanguage": "json",
+          "code": 200,
+          "_postman_previewtype": "text",
+          "responseTime": 33,
+          "name": "根据id查询-Example",
+          "header": [
+            {
+              "name": "date",
+              "key": "date",
+              "value": "周二, 05 4月 202208:35:43 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "Apache-Coyote/1.1",
+              "description": "A name for the server"
+            },
+            {
+              "name": "transfer-encoding",
+              "key": "transfer-encoding",
+              "value": "chunked",
+              "description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application/json;charset\u003dUTF-8"
+            }
+          ],
+          "body": "{\n    \"message\": \"\",\n    \"code\": \"\",\n    \"data\": null\n}",
+          "status": "OK"
+        }
+      ],
+      "name": "根据id查询"
+    },
+    {
+      "request": {
+        "method": "POST",
+        "description": "",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          },
+          "raw": "{\n  \"studentId\": 0,\n  \"name\": \"\",\n  \"description\": \"\",\n  \"ctime\": \"\",\n  \"mtime\": \"\"\n}"
+        },
+        "url": {
+          "path": [
+            "generator",
+            "api",
+            "v1",
+            "student"
+          ],
+          "query": [],
+          "host": "{{springboot-mybatis-plus-generator}}",
+          "raw": "{{springboot-mybatis-plus-generator}}/generator/api/v1/student"
+        }
+      },
+      "response": [
+        {
+          "originalRequest": {
+            "method": "POST",
+            "description": "",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              },
+              "raw": "{\n    \"studentId\": 0, //（学生编码）自增主键\n    \"name\": \"\", //学生姓名\n    \"description\": \"\", //学生介绍\n    \"ctime\": \"\", //创建时间\n    \"mtime\": \"\" //更新时间\n}"
+            },
+            "url": {
+              "query": [],
+              "host": "{{springboot-mybatis-plus-generator}}"
+            }
+          },
+          "_postman_previewlanguage": "json",
+          "code": 200,
+          "_postman_previewtype": "text",
+          "responseTime": 70,
+          "name": "新增-Example",
+          "header": [
+            {
+              "name": "date",
+              "key": "date",
+              "value": "周二, 05 4月 202208:35:43 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "Apache-Coyote/1.1",
+              "description": "A name for the server"
+            },
+            {
+              "name": "transfer-encoding",
+              "key": "transfer-encoding",
+              "value": "chunked",
+              "description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application/json;charset\u003dUTF-8"
+            }
+          ],
+          "body": "{\n    \"message\": \"\",\n    \"code\": \"\",\n    \"data\": null\n}",
+          "status": "OK"
+        }
+      ],
+      "name": "新增"
+    },
+    {
+      "request": {
+        "method": "DELETE",
+        "description": "",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text",
+            "description": ""
+          }
+        ],
+        "url": {
+          "path": [
+            "generator",
+            "api",
+            "v1",
+            "student",
+            ":id"
+          ],
+          "query": [],
+          "host": "{{springboot-mybatis-plus-generator}}",
+          "raw": "{{springboot-mybatis-plus-generator}}/generator/api/v1/student/{id}"
+        }
+      },
+      "response": [
+        {
+          "originalRequest": {
+            "method": "DELETE",
+            "description": "",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded",
+                "type": "text",
+                "description": ""
+              }
+            ],
+            "url": {
+              "path": [
+                "generator",
+                "api",
+                "v1",
+                "student",
+                ":id"
+              ],
+              "query": [],
+              "host": "{{springboot-mybatis-plus-generator}}",
+              "raw": "{{springboot-mybatis-plus-generator}}/generator/api/v1/student/{id}"
+            }
+          },
+          "_postman_previewlanguage": "json",
+          "code": 200,
+          "_postman_previewtype": "text",
+          "responseTime": 81,
+          "name": "删除-Example",
+          "header": [
+            {
+              "name": "date",
+              "key": "date",
+              "value": "周二, 05 4月 202208:35:43 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "Apache-Coyote/1.1",
+              "description": "A name for the server"
+            },
+            {
+              "name": "transfer-encoding",
+              "key": "transfer-encoding",
+              "value": "chunked",
+              "description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application/json;charset\u003dUTF-8"
+            }
+          ],
+          "body": "{\n    \"message\": \"\",\n    \"code\": \"\",\n    \"data\": null\n}",
+          "status": "OK"
+        }
+      ],
+      "name": "删除"
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "description": "",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          },
+          "raw": "{\n  \"studentId\": 0,\n  \"name\": \"\",\n  \"description\": \"\",\n  \"ctime\": \"\",\n  \"mtime\": \"\"\n}"
+        },
+        "url": {
+          "path": [
+            "generator",
+            "api",
+            "v1",
+            "student"
+          ],
+          "query": [],
+          "host": "{{springboot-mybatis-plus-generator}}",
+          "raw": "{{springboot-mybatis-plus-generator}}/generator/api/v1/student"
+        }
+      },
+      "response": [
+        {
+          "originalRequest": {
+            "method": "PUT",
+            "description": "",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              },
+              "raw": "{\n    \"studentId\": 0, //（学生编码）自增主键\n    \"name\": \"\", //学生姓名\n    \"description\": \"\", //学生介绍\n    \"ctime\": \"\", //创建时间\n    \"mtime\": \"\" //更新时间\n}"
+            },
+            "url": {
+              "query": [],
+              "host": "{{springboot-mybatis-plus-generator}}"
+            }
+          },
+          "_postman_previewlanguage": "json",
+          "code": 200,
+          "_postman_previewtype": "text",
+          "responseTime": 35,
+          "name": "修改-Example",
+          "header": [
+            {
+              "name": "date",
+              "key": "date",
+              "value": "周二, 05 4月 202208:35:43 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "Apache-Coyote/1.1",
+              "description": "A name for the server"
+            },
+            {
+              "name": "transfer-encoding",
+              "key": "transfer-encoding",
+              "value": "chunked",
+              "description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application/json;charset\u003dUTF-8"
+            }
+          ],
+          "body": "{\n    \"message\": \"\",\n    \"code\": \"\",\n    \"data\": null\n}",
+          "status": "OK"
+        }
+      ],
+      "name": "修改"
+    }
+  ],
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "name": "\u003cp\u003e-20220405083543",
+    "description": "\u003cp\u003e\n学生信息表 前端控制器\n\u003c/p\u003e"
+  }
+}
